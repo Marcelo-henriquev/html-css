@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+   }
+   header{
+       background-color: white;
+       padding: 10px;
+       margin: 10px;
+       border-radius: 7px;
+       box-shadow: 3px 4px 20px rgb(27, 27, 27);
+   }
+   nav{
+       background-color: rgb(116, 114, 114);
+       padding: 3px;
+       box-shadow: 1px 2px 8px black;
+       border-radius: 5px;
+   }
+   nav > a{
+       text-decoration: none;
+       color: white;
+       font-weight: bold;
+       margin-right: 30px;
+   }
+   nav > a:hover{
+       text-decoration: underline;
+   }
+   main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 3px 4px 20px rgb(27, 27, 27);
+   }
+   article{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 10px rgb(48, 48, 48);
+   }
+   article > aside{
+    background-color: rgb(121, 120, 120);
+    box-shadow: 1px 2px 8px black;
+    border-radius: 4px;
+   }
+   footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+   }
